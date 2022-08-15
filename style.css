@@ -8,6 +8,9 @@ body{
 
 .scare-img{width: 540px;
     height: 414px;
+    left: 70px;
+    right: 300px;
+    position: absolute;
 }
 
 .container{
@@ -24,9 +27,51 @@ p{
     font-size: 24px;
     font-weight: 400;
     width: 400px;
+    /* height: 110px;
+    top: 491px;
+    left: 740px; */
 }
 .text-box{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
+    position: absolute;
+    left: 750px;
+    right: 145px;
 }
+h3{
+    font-family:  'Inconsolata';
+    font-weight: 700;
+    font-size: 25px;
+    width: 250px;
+    height: 25px;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+button{ 
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 55px;
+        font-family: Space Mono;
+        font-size: 11PX;
+        font-weight: 700;
+
+}
+.scriptaz{position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 546px;
+    top: 908px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #BDBDBD;}
